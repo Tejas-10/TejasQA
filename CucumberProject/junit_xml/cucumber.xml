@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.138071">
+<testcase classname="Using map" name="" time="0.138071">
+<system-out><![CDATA[Given user is on new contact page...........................................passed
+When user enters his/her credentials........................................passed
+Then user provides position.................................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

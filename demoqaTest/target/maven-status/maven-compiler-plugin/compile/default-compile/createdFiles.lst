@@ -1,0 +1,3 @@
+com\storeqa\base\BaseClass.class
+com\storeqa\pages\HomePage.class
+com\storeqa\pages\ProductPage.class

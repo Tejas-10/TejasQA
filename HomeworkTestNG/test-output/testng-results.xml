@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8312" started-at="2018-12-15T05:15:27Z" finished-at="2018-12-15T05:15:35Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="Test1.case2Test()[pri:2, instance:testCases.Test1@31b7dea0]" name="case2Test" class="testCases.Test1"/>
+        <method signature="Test1.caseTest()[pri:1, instance:testCases.Test1@31b7dea0]" name="caseTest" class="testCases.Test1"/>
+      </group> <!-- Sanity -->
+      <group name="smoke">
+        <method signature="Test2.facebookTest()[pri:0, instance:testCases.Test2@3ac42916]" name="facebookTest" class="testCases.Test2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="8312" started-at="2018-12-15T05:15:27Z" finished-at="2018-12-15T05:15:35Z">
+      <class name="testCases.Test2">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.Test2@3ac42916]" name="openBrowser" is-config="true" duration-ms="4341" started-at="2018-12-15T00:15:27Z" finished-at="2018-12-15T00:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="facebookTest()[pri:0, instance:testCases.Test2@3ac42916]" name="facebookTest" duration-ms="3956" started-at="2018-12-15T00:15:31Z" finished-at="2018-12-15T00:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.Test2@3ac42916]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-12-15T00:15:35Z" finished-at="2018-12-15T00:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testCases.Test2 -->
+      <class name="testCases.Test1">
+        <test-method status="PASS" signature="SuiteTest()[pri:0, instance:testCases.Test1@31b7dea0]" name="SuiteTest" is-config="true" duration-ms="13" started-at="2018-12-15T00:15:27Z" finished-at="2018-12-15T00:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteTest -->
+        <test-method status="PASS" signature="testTest()[pri:0, instance:testCases.Test1@31b7dea0]" name="testTest" is-config="true" duration-ms="0" started-at="2018-12-15T00:15:27Z" finished-at="2018-12-15T00:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest -->
+        <test-method status="PASS" signature="classTest()[pri:0, instance:testCases.Test1@31b7dea0]" name="classTest" is-config="true" duration-ms="1" started-at="2018-12-15T00:15:27Z" finished-at="2018-12-15T00:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTest -->
+        <test-method status="PASS" signature="methodTest()[pri:0, instance:testCases.Test1@31b7dea0]" name="methodTest" is-config="true" duration-ms="0" started-at="2018-12-15T00:15:27Z" finished-at="2018-12-15T00:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTest -->
+        <test-method status="PASS" signature="caseTest()[pri:1, instance:testCases.Test1@31b7dea0]" name="caseTest" duration-ms="0" started-at="2018-12-15T00:15:27Z" finished-at="2018-12-15T00:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- caseTest -->
+        <test-method status="PASS" signature="aftermethodTest()[pri:0, instance:testCases.Test1@31b7dea0]" name="aftermethodTest" is-config="true" duration-ms="0" started-at="2018-12-15T00:15:27Z" finished-at="2018-12-15T00:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodTest -->
+        <test-method status="PASS" signature="methodTest()[pri:0, instance:testCases.Test1@31b7dea0]" name="methodTest" is-config="true" duration-ms="1" started-at="2018-12-15T00:15:27Z" finished-at="2018-12-15T00:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTest -->
+        <test-method status="PASS" signature="afterClassTest()[pri:0, instance:testCases.Test1@31b7dea0]" name="afterClassTest" is-config="true" duration-ms="0" started-at="2018-12-15T00:15:27Z" finished-at="2018-12-15T00:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+        <test-method status="PASS" signature="aftermethodTest()[pri:0, instance:testCases.Test1@31b7dea0]" name="aftermethodTest" is-config="true" duration-ms="0" started-at="2018-12-15T00:15:27Z" finished-at="2018-12-15T00:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodTest -->
+        <test-method status="PASS" signature="case2Test()[pri:2, instance:testCases.Test1@31b7dea0]" name="case2Test" duration-ms="0" started-at="2018-12-15T00:15:27Z" finished-at="2018-12-15T00:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case2Test -->
+        <test-method status="PASS" signature="afterTestTest()[pri:0, instance:testCases.Test1@31b7dea0]" name="afterTestTest" is-config="true" duration-ms="0" started-at="2018-12-15T00:15:35Z" finished-at="2018-12-15T00:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestTest -->
+      </class> <!-- testCases.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

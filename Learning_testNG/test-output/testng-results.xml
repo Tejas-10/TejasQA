@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Suite" duration-ms="8919" started-at="2018-12-14T21:17:51Z" finished-at="2018-12-14T21:18:00Z">
+    <groups>
+    </groups>
+    <test name="Tejas" duration-ms="8919" started-at="2018-12-14T21:17:51Z" finished-at="2018-12-14T21:18:00Z">
+      <class name="naveenTestNG.SeleniumTestNG">
+        <test-method status="PASS" signature="openBroweser()[pri:0, instance:naveenTestNG.SeleniumTestNG@482f8f11]" name="openBroweser" is-config="true" duration-ms="4122" started-at="2018-12-14T21:17:51Z" finished-at="2018-12-14T21:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroweser -->
+        <test-method status="PASS" signature="gmailTest()[pri:0, instance:naveenTestNG.SeleniumTestNG@482f8f11]" name="gmailTest" duration-ms="4769" started-at="2018-12-14T21:17:55Z" finished-at="2018-12-14T21:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:naveenTestNG.SeleniumTestNG@482f8f11]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-12-14T21:18:00Z" finished-at="2018-12-14T21:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- naveenTestNG.SeleniumTestNG -->
+      <class name="naveenTestNG.Basics">
+        <test-method status="PASS" signature="SuiteTest()[pri:0, instance:naveenTestNG.Basics@51565ec2]" name="SuiteTest" is-config="true" duration-ms="10" started-at="2018-12-14T21:17:51Z" finished-at="2018-12-14T21:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteTest -->
+        <test-method status="PASS" signature="testTest()[pri:0, instance:naveenTestNG.Basics@51565ec2]" name="testTest" is-config="true" duration-ms="0" started-at="2018-12-14T21:17:51Z" finished-at="2018-12-14T21:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTest -->
+        <test-method status="PASS" signature="classTest()[pri:0, instance:naveenTestNG.Basics@51565ec2]" name="classTest" is-config="true" duration-ms="0" started-at="2018-12-14T21:18:00Z" finished-at="2018-12-14T21:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTest -->
+        <test-method status="PASS" signature="methodTest()[pri:0, instance:naveenTestNG.Basics@51565ec2]" name="methodTest" is-config="true" duration-ms="1" started-at="2018-12-14T21:18:00Z" finished-at="2018-12-14T21:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTest -->
+        <test-method status="PASS" signature="caseTest()[pri:1, instance:naveenTestNG.Basics@51565ec2]" name="caseTest" duration-ms="0" started-at="2018-12-14T21:18:00Z" finished-at="2018-12-14T21:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- caseTest -->
+        <test-method status="PASS" signature="aftermethodTest()[pri:0, instance:naveenTestNG.Basics@51565ec2]" name="aftermethodTest" is-config="true" duration-ms="0" started-at="2018-12-14T21:18:00Z" finished-at="2018-12-14T21:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodTest -->
+        <test-method status="PASS" signature="case2Test()[pri:2, instance:naveenTestNG.Basics@51565ec2]" name="case2Test" duration-ms="2" started-at="2018-12-14T21:18:00Z" finished-at="2018-12-14T21:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case2Test -->
+        <test-method status="PASS" signature="methodTest()[pri:0, instance:naveenTestNG.Basics@51565ec2]" name="methodTest" is-config="true" duration-ms="0" started-at="2018-12-14T21:18:00Z" finished-at="2018-12-14T21:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTest -->
+        <test-method status="PASS" signature="aftermethodTest()[pri:0, instance:naveenTestNG.Basics@51565ec2]" name="aftermethodTest" is-config="true" duration-ms="1" started-at="2018-12-14T21:18:00Z" finished-at="2018-12-14T21:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodTest -->
+        <test-method status="PASS" signature="afterTestTest()[pri:0, instance:naveenTestNG.Basics@51565ec2]" name="afterTestTest" is-config="true" duration-ms="0" started-at="2018-12-14T21:18:00Z" finished-at="2018-12-14T21:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestTest -->
+        <test-method status="PASS" signature="afterClassTest()[pri:0, instance:naveenTestNG.Basics@51565ec2]" name="afterClassTest" is-config="true" duration-ms="0" started-at="2018-12-14T21:18:00Z" finished-at="2018-12-14T21:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- naveenTestNG.Basics -->
+    </test> <!-- Tejas -->
+  </suite> <!-- TestNG Suite -->
+</testng-results>

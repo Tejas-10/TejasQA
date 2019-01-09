@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: demoqa.demoqaTest.HomePageTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 0.684 sec <<< FAILURE!
+setUp(demoqa.demoqaTest.HomePageTest)  Time elapsed: 0.442 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.storeqa.base.BaseClass.initialization(BaseClass.java:32)
+	at demoqa.demoqaTest.HomePageTest.setUp(HomePageTest.java:18)
+

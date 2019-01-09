@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20" started-at="2018-12-09T23:10:24Z" finished-at="2018-12-09T23:10:24Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="Testing3.homeTest()[pri:1, instance:selenium.Testing3@1ff8b8f]" name="homeTest" class="selenium.Testing3"/>
+        <method signature="Testing3.mainTest()[pri:2, instance:selenium.Testing3@1ff8b8f]" name="mainTest" class="selenium.Testing3"/>
+      </group> <!-- Sanity -->
+      <group name="Smoke">
+        <method signature="Testing3.mainTest()[pri:2, instance:selenium.Testing3@1ff8b8f]" name="mainTest" class="selenium.Testing3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="20" started-at="2018-12-09T23:10:24Z" finished-at="2018-12-09T23:10:24Z">
+      <class name="selenium.Testing3">
+        <test-method status="PASS" signature="homeTest()[pri:1, instance:selenium.Testing3@1ff8b8f]" name="homeTest" duration-ms="1" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest -->
+        <test-method status="FAIL" signature="mainTest()[pri:2, instance:selenium.Testing3@1ff8b8f]" name="mainTest" duration-ms="2" started-at="2018-12-09T18:10:24Z" depends-on-methods="selenium.Testing3.homeTest" finished-at="2018-12-09T18:10:24Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	Verifying element expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	Verifying element expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at selenium.Testing3.mainTest(Testing3.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainTest -->
+        <test-method status="FAIL" signature="endTest()[pri:3, instance:selenium.Testing3@1ff8b8f]" name="endTest" duration-ms="1" started-at="2018-12-09T18:10:24Z" depends-on-methods="selenium.Testing3.homeTest" finished-at="2018-12-09T18:10:24Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	Verifying element expected [true] but found [false],
+	Verifying element expected [true] but found [false],
+	expected [abc1] but found [abc]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	Verifying element expected [true] but found [false],
+	Verifying element expected [true] but found [false],
+	expected [abc1] but found [abc]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at selenium.Testing3.endTest(Testing3.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- selenium.Testing3 -->
+      <class name="selenium.Testing1">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="test1" duration-ms="1" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="test2" duration-ms="0" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:selenium.Testing1@1bc6a36e]" name="f" duration-ms="0" started-at="2018-12-09T18:10:24Z" data-provider="dp" finished-at="2018-12-09T18:10:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:selenium.Testing1@1bc6a36e]" name="f" duration-ms="0" started-at="2018-12-09T18:10:24Z" data-provider="dp" finished-at="2018-12-09T18:10:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:selenium.Testing1@1bc6a36e]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-12-09T18:10:24Z" finished-at="2018-12-09T18:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- selenium.Testing1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

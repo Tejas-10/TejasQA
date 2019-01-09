@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Suite]">
+  <test thread-count="5" name="Tejas(failed)">
+    <classes>
+      <class name="naveenTestNG.SeleniumTestNG">
+        <methods>
+          <include name="gmailTest"/>
+          <include name="openBroweser"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- naveenTestNG.SeleniumTestNG -->
+    </classes>
+  </test> <!-- Tejas(failed) -->
+</suite> <!-- Failed suite [TestNG Suite] -->

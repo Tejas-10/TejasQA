@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="85" started-at="2019-01-05T20:35:14Z" finished-at="2019-01-05T20:35:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="85" started-at="2019-01-05T20:35:14Z" finished-at="2019-01-05T20:35:15Z">
+      <class name="nexus6P.AppiumFirst">
+        <test-method status="FAIL" signature="facebookLoginTest()[pri:0, instance:nexus6P.AppiumFirst@5ae9a829]" name="facebookLoginTest" duration-ms="70" started-at="2019-01-05T15:35:14Z" finished-at="2019-01-05T15:35:15Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/openqa/selenium/remote/ProtocolHandshake]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/remote/ProtocolHandshake
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:93)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:95)
+	at nexus6P.AppiumFirst.facebookLoginTest(AppiumFirst.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.ProtocolHandshake
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLoginTest -->
+      </class> <!-- nexus6P.AppiumFirst -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
