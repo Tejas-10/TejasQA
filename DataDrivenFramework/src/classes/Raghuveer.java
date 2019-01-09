@@ -13,7 +13,7 @@ public class Raghuveer {
 		String firstname = reader.getCellData("Registration", 0, 2);
 		System.out.println(firstName);
 		System.out.println(firstname);
-		
+		// Kem ma fade la?
 		/*System.setProperty("webdriver.chrome.driver", "C:\\Users\\raghuveer.mh\\Desktop\\chromedriver_win32 (2)\\chromedriver.exe");
 		WebDriver	driver = new ChromeDriver();
 		
