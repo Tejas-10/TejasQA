@@ -1856,3 +1856,19 @@ java.io.FileNotFoundException: C:\Users\theso\.m2\repository\org\apache\poi\ooxm
 2019-01-08 17:02:21,647 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Selenium_Workspace\myMavenProject\src\main\resources
 2019-01-08 17:02:21,648 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-01-08 17:02:21,648 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Selenium_Workspace\myMavenProject\src\test\resources
+2019-01-08 23:58:31,913 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-08 23:58:31,924 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Selenium_Workspace\CucumberProject\src\main\resources
+2019-01-08 23:58:31,926 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-08 23:58:31,927 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Selenium_Workspace\CucumberProject\src\test\resources
+2019-01-08 23:58:33,053 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-08 23:58:33,053 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Selenium_Workspace\HWMavenExtent\src\main\resources
+2019-01-08 23:58:33,055 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-08 23:58:33,055 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Selenium_Workspace\HWMavenExtent\src\test\resources
+2019-01-08 23:58:35,083 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-08 23:58:35,083 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Selenium_Workspace\demoqaTest\src\main\resources
+2019-01-08 23:58:35,085 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-08 23:58:35,085 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Selenium_Workspace\demoqaTest\src\test\resources
+2019-01-08 23:58:39,590 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-08 23:58:39,591 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Selenium_Workspace\myMavenProject\src\main\resources
+2019-01-08 23:58:39,593 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-08 23:58:39,593 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Selenium_Workspace\myMavenProject\src\test\resources
